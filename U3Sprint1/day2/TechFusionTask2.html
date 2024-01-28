@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFusion</title>
+</head>
+
+<body>
+    <header>
+        <h1>TechFusion 2024</h1>
+    </header>
+    <form action="submit">
+        <section>
+            <h3>Personal Details:</h3>
+            <div><label for="fname">First Name: </label>
+                <input type="text" id="fname" required>
+            </div>
+            <div>
+                <label for="lname">Last Name : </label>
+                <input type="text" id="lname" required>
+            </div>
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="phone">Phone : </label>
+                <input type="phone" id="phone">
+            </div>
+        </section>
+<br>
+        <section>
+            <h3>Profile Type:</h3>
+            <!-- <fieldset> -->
+                <legend>Select type of attendee : </legend>
+                <div>
+                    <input type="radio" id="huey" name="drone" value="huey" checked />
+                    <label for="huey">Professional</label>
+                </div>
+                <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Student</label>
+                </div>
+                <div>
+                    <input type="radio" id="louie" name="drone" value="louie" />
+                    <label for="louie">Enthusiast</label>
+                </div>
+            <!-- </fieldset> -->
+        </section>
+<br>
+        <section>
+            <h3>Areas of interest : </h3>
+            <label for="domain">Choose a primary domain:</label>
+            <select name="domain" id="domain">
+                <option value="Web Development" required>Web Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Cloud Computing">Cloud Computing</option>
+                <option value="Artificial Intelligence">Artificial Intelligence</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+            </select>
+        </section>
+<br>
+        <section>
+            <h3>Workshops:</h3>
+            <!-- <fieldset> -->
+                <legend>Select type of workshops : </legend>
+                <div>
+                    <input type="checkbox" id="rd1"  value="huey" />
+                    <label for="rd1">Intro to Quantum Computing</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rd2" value="dewey" />
+                    <label for="rd2">Virtual Reality on the Web</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rd3" value="louie" />
+                    <label for="rd3">Cybersecurity 101</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rd4" value="louie" />
+                    <label for="rd4">AI in Medical Imaging</label>
+                </div>
+            <!-- </fieldset> -->
+        </section>
+<br>
+        <section>
+            <h3>Additional Information:</h3>
+            <textarea id="story" name="story" rows="5" cols="60">
+            </textarea>
+        </section>
+<br>
+        <section>
+            <h3>Preferred Days:</h3>
+            <legend>Select Preferred day: </legend>
+                <div>
+                    <input type="checkbox" id="d1" name="days"  value="days"/>
+                    <label for="d1">Day 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="d2" name="days" value="days"/>
+                    <label for="d2">Day 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="d3" name="days" value="days"  />
+                    <label for="d3">Day 3</label>
+                </div>
+        </section>
+<br>
+        <section>
+            <h3>Meal Preference:</h3>
+            <legend>Food Choice: </legend>
+                <div>
+                    <input type="radio" id="Vegetarian" name="days"  value="days"/>
+                    <label for="Vegetarian">Vegetarian</label>
+                </div>
+                <div>
+                    <input type="radio" id="Non-Vegetarian" name="days" value="days"/>
+                    <label for="Non-Vegetarian">Non-Vegetarian</label>
+                </div>
+                <div>
+                    <input type="radio" id="Vegan" name="days" value="days"/>
+                    <label for="Vegan">Vegan</label>
+                </div>
+                <div>
+                    <input type="radio" id="No Preference" name="days" checked/>
+                    <label for="No Preference" >No Preference</label>
+                </div>
+        </section>
+<br>
+        <section>
+            <h3>Terms and Conditions:</h3>
+            <div>
+                <input type="checkbox" id="term"  required/>
+                <label for="term">I agree to the terms and conditions</label>
+            </div>
+        </section>
+  <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
